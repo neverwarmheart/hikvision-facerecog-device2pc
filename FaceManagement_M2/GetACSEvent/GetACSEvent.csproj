@@ -113,6 +113,7 @@
     <Compile Include="GetAcsEventType.cs" />
     <Compile Include="HCNetSDK.cs" />
     <Compile Include="Language\MultiLanguage.cs" />
+    <Compile Include="LoginDetail.cs" />
     <Compile Include="Public\AddDevice.cs">
       <SubType>Form</SubType>
     </Compile>

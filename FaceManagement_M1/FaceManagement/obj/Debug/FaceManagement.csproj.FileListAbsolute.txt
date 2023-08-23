@@ -45,3 +45,15 @@ D:\WorkSpace\WorkData\C#\ProjectDocs\FaceManagement\FaceManagement\obj\Debug\Fac
 D:\WorkSpace\WorkData\C#\ProjectDocs\FaceManagement\FaceManagement\obj\Debug\FaceManagement.csproj.CoreCompileInputs.cache
 D:\WorkSpace\WorkData\C#\ProjectDocs\FaceManagement\FaceManagement\obj\Debug\FaceManagement.exe
 D:\WorkSpace\WorkData\C#\ProjectDocs\FaceManagement\FaceManagement\obj\Debug\FaceManagement.pdb
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M1\FaceManagement\bin\FaceManagement.exe.config
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M1\FaceManagement\bin\FaceManagement.exe
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M1\FaceManagement\bin\FaceManagement.pdb
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M1\FaceManagement\obj\Debug\FaceManagement.csproj.AssemblyReference.cache
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M1\FaceManagement\obj\Debug\FaceManagement.csproj.SuggestedBindingRedirects.cache
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M1\FaceManagement\obj\Debug\FaceManagement.FaceManagement.resources
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M1\FaceManagement\obj\Debug\FaceManagement.AddDev.resources
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M1\FaceManagement\obj\Debug\FaceManagement.Properties.Resources.resources
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M1\FaceManagement\obj\Debug\FaceManagement.csproj.GenerateResource.cache
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M1\FaceManagement\obj\Debug\FaceManagement.csproj.CoreCompileInputs.cache
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M1\FaceManagement\obj\Debug\FaceManagement.exe
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M1\FaceManagement\obj\Debug\FaceManagement.pdb

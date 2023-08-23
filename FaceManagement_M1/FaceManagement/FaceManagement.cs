@@ -23,8 +23,8 @@ namespace FaceManagement
 
             lstLoginDetail = new List<LoginDetail>
             {
-                new LoginDetail("192.168.10.12", "admin", "lynd4Cam", "8000"),
-                new LoginDetail("192.168.10.12", "admin", "lynd4Cam", "8000")
+                new LoginDetail("192.168.10.13", "admin", "lynd4Cam", "8000"),
+                new LoginDetail("192.168.10.14", "admin", "lynd4Cam", "8000")
             };
         }
 
@@ -165,6 +165,7 @@ namespace FaceManagement
             {
                 //Login("10.2.12.10", "admin", "lynd4Cam", "8000");
                 Login(loginDetail.DeviceAddress, loginDetail.UserName, loginDetail.Password, loginDetail.Port);
+                if (m_UserID < 0) continue;
                 // Iterate through each row in the DataGridView
                 foreach (DataGridViewRow row in dataGridView1.Rows)
                 {
@@ -420,6 +421,7 @@ namespace FaceManagement
             }
             else
             {
+                m_UserID = -1;
                 uint nErr = CHCNetSDK.NET_DVR_GetLastError();
                 if (nErr == CHCNetSDK.NET_DVR_PASSWORD_ERROR)
                 {
@@ -451,6 +453,7 @@ namespace FaceManagement
             //Login("192.168.10.13", "admin", "lynd4Cam", "8000");
             
             Login(hrDeviceLoginDetail.DeviceAddress, hrDeviceLoginDetail.UserName, hrDeviceLoginDetail.Password, hrDeviceLoginDetail.Port);
+            if (m_UserID < 0) return;
 
             // Iterate through each row in the DataGridView
             foreach (DataGridViewRow row in dataGridView1.Rows)
@@ -480,6 +483,8 @@ namespace FaceManagement
         {
            // Login("192.168.10.13", "admin", "lynd4Cam", "8000");
             Login(hrDeviceLoginDetail.DeviceAddress, hrDeviceLoginDetail.UserName, hrDeviceLoginDetail.Password, hrDeviceLoginDetail.Port);
+            if (m_UserID < 0) return;
+
             // Iterate through each row in the DataGridView
             foreach (DataGridViewRow row in dataGridView1.Rows)
             {

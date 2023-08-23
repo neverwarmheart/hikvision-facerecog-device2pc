@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GetACSEvent));
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.btnLogin = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.comboBoxMainType = new System.Windows.Forms.ComboBox();
             this.comboBoxSecondType = new System.Windows.Forms.ComboBox();
@@ -41,14 +40,8 @@
             this.dateTimeStart = new System.Windows.Forms.DateTimePicker();
             this.dateTimeEnd = new System.Windows.Forms.DateTimePicker();
             this.btnSearch = new System.Windows.Forms.Button();
-            this.dateTimeSelect = new System.Windows.Forms.DateTimePicker();
             this.label8 = new System.Windows.Forms.Label();
             this.textBoxEmployeeNo = new System.Windows.Forms.TextBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.textBoxCardNo = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.textBoxName = new System.Windows.Forms.TextBox();
             this.listViewEvent = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -56,47 +49,22 @@
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader18 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader19 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader20 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader21 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader22 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader23 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader24 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader25 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader26 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader27 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader28 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader29 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader30 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader31 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader32 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader33 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader34 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader35 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader36 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBoxIpAddress = new System.Windows.Forms.TextBox();
             this.comboBoxLanguage = new System.Windows.Forms.ComboBox();
+            this.btnLogin = new System.Windows.Forms.Button();
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(1, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(790, 106);
+            this.panel1.Size = new System.Drawing.Size(1006, 106);
             this.panel1.TabIndex = 4;
             // 
             // label1
@@ -106,22 +74,11 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Consolas", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(235, 30);
+            this.label1.Location = new System.Drawing.Point(363, 33);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(265, 41);
             this.label1.TabIndex = 1;
             this.label1.Text = "Get ACS Event";
-            // 
-            // btnLogin
-            // 
-            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLogin.Location = new System.Drawing.Point(14, 125);
-            this.btnLogin.Name = "btnLogin";
-            this.btnLogin.Size = new System.Drawing.Size(103, 29);
-            this.btnLogin.TabIndex = 5;
-            this.btnLogin.Text = "Login";
-            this.btnLogin.UseVisualStyleBackColor = true;
-            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // label2
             // 
@@ -129,7 +86,7 @@
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Consolas", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DimGray;
-            this.label2.Location = new System.Drawing.Point(157, 129);
+            this.label2.Location = new System.Drawing.Point(22, 230);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(96, 17);
             this.label2.TabIndex = 57;
@@ -137,6 +94,7 @@
             // 
             // comboBoxMainType
             // 
+            this.comboBoxMainType.Enabled = false;
             this.comboBoxMainType.FormattingEnabled = true;
             this.comboBoxMainType.Items.AddRange(new object[] {
             "All",
@@ -144,7 +102,7 @@
             "Exception",
             "Operation",
             "Event"});
-            this.comboBoxMainType.Location = new System.Drawing.Point(277, 128);
+            this.comboBoxMainType.Location = new System.Drawing.Point(128, 229);
             this.comboBoxMainType.Name = "comboBoxMainType";
             this.comboBoxMainType.Size = new System.Drawing.Size(173, 22);
             this.comboBoxMainType.TabIndex = 59;
@@ -152,6 +110,7 @@
             // 
             // comboBoxSecondType
             // 
+            this.comboBoxSecondType.Enabled = false;
             this.comboBoxSecondType.FormattingEnabled = true;
             this.comboBoxSecondType.Items.AddRange(new object[] {
             "All",
@@ -370,7 +329,7 @@
             "UNLOCK_PASSWORD_OPEN_DOOR",
             "VERIFY_MODE_MISMATCH",
             "WATCH_DOG_RESET"});
-            this.comboBoxSecondType.Location = new System.Drawing.Point(597, 127);
+            this.comboBoxSecondType.Location = new System.Drawing.Point(128, 261);
             this.comboBoxSecondType.Name = "comboBoxSecondType";
             this.comboBoxSecondType.Size = new System.Drawing.Size(173, 22);
             this.comboBoxSecondType.TabIndex = 61;
@@ -382,7 +341,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Consolas", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.DimGray;
-            this.label3.Location = new System.Drawing.Point(491, 128);
+            this.label3.Location = new System.Drawing.Point(22, 262);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(96, 17);
             this.label3.TabIndex = 60;
@@ -394,7 +353,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Consolas", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DimGray;
-            this.label4.Location = new System.Drawing.Point(491, 174);
+            this.label4.Location = new System.Drawing.Point(363, 229);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(80, 17);
             this.label4.TabIndex = 64;
@@ -406,7 +365,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Consolas", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DimGray;
-            this.label5.Location = new System.Drawing.Point(157, 175);
+            this.label5.Location = new System.Drawing.Point(347, 263);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(96, 17);
             this.label5.TabIndex = 62;
@@ -416,7 +375,7 @@
             // 
             this.dateTimeStart.CustomFormat = "yyyy/MM/dd HH:mm:ss";
             this.dateTimeStart.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeStart.Location = new System.Drawing.Point(277, 174);
+            this.dateTimeStart.Location = new System.Drawing.Point(465, 262);
             this.dateTimeStart.Name = "dateTimeStart";
             this.dateTimeStart.Size = new System.Drawing.Size(173, 22);
             this.dateTimeStart.TabIndex = 66;
@@ -425,7 +384,7 @@
             // 
             this.dateTimeEnd.CustomFormat = "yyyy/MM/dd HH:mm:ss";
             this.dateTimeEnd.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeEnd.Location = new System.Drawing.Point(597, 174);
+            this.dateTimeEnd.Location = new System.Drawing.Point(465, 226);
             this.dateTimeEnd.Name = "dateTimeEnd";
             this.dateTimeEnd.Size = new System.Drawing.Size(173, 22);
             this.dateTimeEnd.TabIndex = 67;
@@ -433,23 +392,13 @@
             // btnSearch
             // 
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnSearch.Location = new System.Drawing.Point(680, 211);
+            this.btnSearch.Location = new System.Drawing.Point(905, 311);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(90, 23);
+            this.btnSearch.Size = new System.Drawing.Size(90, 25);
             this.btnSearch.TabIndex = 68;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
-            // 
-            // dateTimeSelect
-            // 
-            this.dateTimeSelect.CustomFormat = "yyyy/MM/dd HH:mm:ss";
-            this.dateTimeSelect.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeSelect.Location = new System.Drawing.Point(277, 383);
-            this.dateTimeSelect.Name = "dateTimeSelect";
-            this.dateTimeSelect.Size = new System.Drawing.Size(173, 22);
-            this.dateTimeSelect.TabIndex = 78;
-            this.dateTimeSelect.Visible = false;
             // 
             // label8
             // 
@@ -457,7 +406,7 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Consolas", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.DimGray;
-            this.label8.Location = new System.Drawing.Point(131, 299);
+            this.label8.Location = new System.Drawing.Point(708, 226);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(104, 17);
             this.label8.TabIndex = 77;
@@ -465,64 +414,10 @@
             // 
             // textBoxEmployeeNo
             // 
-            this.textBoxEmployeeNo.Location = new System.Drawing.Point(277, 298);
+            this.textBoxEmployeeNo.Location = new System.Drawing.Point(822, 225);
             this.textBoxEmployeeNo.Name = "textBoxEmployeeNo";
             this.textBoxEmployeeNo.Size = new System.Drawing.Size(173, 22);
             this.textBoxEmployeeNo.TabIndex = 76;
-            this.textBoxEmployeeNo.Text = "123";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Consolas", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.DimGray;
-            this.label7.Location = new System.Drawing.Point(131, 388);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(48, 17);
-            this.label7.TabIndex = 74;
-            this.label7.Text = "Time:";
-            this.label7.Visible = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Consolas", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.DimGray;
-            this.label6.Location = new System.Drawing.Point(131, 341);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(72, 17);
-            this.label6.TabIndex = 73;
-            this.label6.Text = "Card No:";
-            // 
-            // textBoxCardNo
-            // 
-            this.textBoxCardNo.Location = new System.Drawing.Point(277, 340);
-            this.textBoxCardNo.Name = "textBoxCardNo";
-            this.textBoxCardNo.Size = new System.Drawing.Size(173, 22);
-            this.textBoxCardNo.TabIndex = 72;
-            this.textBoxCardNo.Text = "456";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Consolas", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.DimGray;
-            this.label9.Location = new System.Drawing.Point(131, 257);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(48, 17);
-            this.label9.TabIndex = 71;
-            this.label9.Text = "Name:";
-            // 
-            // textBoxName
-            // 
-            this.textBoxName.Location = new System.Drawing.Point(277, 256);
-            this.textBoxName.Name = "textBoxName";
-            this.textBoxName.Size = new System.Drawing.Size(173, 22);
-            this.textBoxName.TabIndex = 70;
-            this.textBoxName.Text = "Jack";
             // 
             // listViewEvent
             // 
@@ -533,41 +428,13 @@
             this.columnHeader4,
             this.columnHeader5,
             this.columnHeader6,
-            this.columnHeader7,
-            this.columnHeader8,
-            this.columnHeader9,
-            this.columnHeader10,
-            this.columnHeader11,
-            this.columnHeader12,
-            this.columnHeader13,
-            this.columnHeader14,
-            this.columnHeader15,
-            this.columnHeader16,
-            this.columnHeader17,
-            this.columnHeader18,
-            this.columnHeader19,
-            this.columnHeader20,
-            this.columnHeader21,
-            this.columnHeader22,
-            this.columnHeader23,
-            this.columnHeader24,
-            this.columnHeader25,
-            this.columnHeader26,
-            this.columnHeader27,
-            this.columnHeader28,
-            this.columnHeader29,
-            this.columnHeader30,
-            this.columnHeader31,
-            this.columnHeader32,
-            this.columnHeader33,
-            this.columnHeader34,
-            this.columnHeader35,
-            this.columnHeader36});
+            this.columnHeader7});
             this.listViewEvent.FullRowSelect = true;
             this.listViewEvent.GridLines = true;
-            this.listViewEvent.Location = new System.Drawing.Point(12, 433);
+            this.listViewEvent.HideSelection = false;
+            this.listViewEvent.Location = new System.Drawing.Point(11, 349);
             this.listViewEvent.Name = "listViewEvent";
-            this.listViewEvent.Size = new System.Drawing.Size(767, 240);
+            this.listViewEvent.Size = new System.Drawing.Size(984, 258);
             this.listViewEvent.TabIndex = 79;
             this.listViewEvent.UseCompatibleStateImageBehavior = false;
             this.listViewEvent.View = System.Windows.Forms.View.Details;
@@ -575,182 +442,52 @@
             // columnHeader1
             // 
             this.columnHeader1.Text = "No.";
-            this.columnHeader1.Width = 120;
+            this.columnHeader1.Width = 50;
             // 
             // columnHeader2
             // 
-            this.columnHeader2.Text = "Log Time";
-            this.columnHeader2.Width = 180;
+            this.columnHeader2.Text = "Employee ID";
+            this.columnHeader2.Width = 120;
             // 
             // columnHeader3
             // 
-            this.columnHeader3.Text = "Major Type";
-            this.columnHeader3.Width = 120;
+            this.columnHeader3.Text = "Employee Name";
+            this.columnHeader3.Width = 150;
             // 
             // columnHeader4
             // 
-            this.columnHeader4.Text = "Minor Type";
+            this.columnHeader4.Text = "Card No";
             this.columnHeader4.Width = 120;
             // 
             // columnHeader5
             // 
-            this.columnHeader5.Text = "Card No";
-            this.columnHeader5.Width = 120;
+            this.columnHeader5.Text = "Time";
+            this.columnHeader5.Width = 200;
             // 
             // columnHeader6
             // 
-            this.columnHeader6.Text = "Card Type";
-            this.columnHeader6.Width = 120;
+            this.columnHeader6.Text = "Auth Location(IP)";
+            this.columnHeader6.Width = 200;
             // 
-            // columnHeader7
+            // label10
             // 
-            this.columnHeader7.Text = "allow List No";
-            this.columnHeader7.Width = 120;
+            this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
+            this.label10.Font = new System.Drawing.Font("Consolas", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.ForeColor = System.Drawing.Color.DimGray;
+            this.label10.Location = new System.Drawing.Point(716, 264);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(96, 17);
+            this.label10.TabIndex = 82;
+            this.label10.Text = "IP Address:";
             // 
-            // columnHeader8
+            // textBoxIpAddress
             // 
-            this.columnHeader8.Text = "Report Channel";
-            this.columnHeader8.Width = 120;
-            // 
-            // columnHeader9
-            // 
-            this.columnHeader9.Text = "Card Reader Kind";
-            this.columnHeader9.Width = 120;
-            // 
-            // columnHeader10
-            // 
-            this.columnHeader10.Text = "Card Reader No";
-            this.columnHeader10.Width = 120;
-            // 
-            // columnHeader11
-            // 
-            this.columnHeader11.Text = "Door No";
-            this.columnHeader11.Width = 120;
-            // 
-            // columnHeader12
-            // 
-            this.columnHeader12.Text = "Verify No";
-            this.columnHeader12.Width = 120;
-            // 
-            // columnHeader13
-            // 
-            this.columnHeader13.Text = "Alarm In No";
-            this.columnHeader13.Width = 120;
-            // 
-            // columnHeader14
-            // 
-            this.columnHeader14.Text = "Alarm Out No";
-            this.columnHeader14.Width = 120;
-            // 
-            // columnHeader15
-            // 
-            this.columnHeader15.Text = "Case Sensor No";
-            this.columnHeader15.Width = 120;
-            // 
-            // columnHeader16
-            // 
-            this.columnHeader16.Text = "RS485 No";
-            this.columnHeader16.Width = 120;
-            // 
-            // columnHeader17
-            // 
-            this.columnHeader17.Text = "Multi Card Group No";
-            this.columnHeader17.Width = 120;
-            // 
-            // columnHeader18
-            // 
-            this.columnHeader18.Text = "Access Channel";
-            this.columnHeader18.Width = 120;
-            // 
-            // columnHeader19
-            // 
-            this.columnHeader19.Text = "Device No";
-            this.columnHeader19.Width = 120;
-            // 
-            // columnHeader20
-            // 
-            this.columnHeader20.Text = "Employee No";
-            this.columnHeader20.Width = 120;
-            // 
-            // columnHeader21
-            // 
-            this.columnHeader21.Text = "Distract Control No";
-            this.columnHeader21.Width = 120;
-            // 
-            // columnHeader22
-            // 
-            this.columnHeader22.Text = "Local Controller ID";
-            this.columnHeader22.Width = 120;
-            // 
-            // columnHeader23
-            // 
-            this.columnHeader23.Text = "InterNet Access";
-            this.columnHeader23.Width = 120;
-            // 
-            // columnHeader24
-            // 
-            this.columnHeader24.Text = "Type";
-            this.columnHeader24.Width = 120;
-            // 
-            // columnHeader25
-            // 
-            this.columnHeader25.Text = "Mac Addr";
-            this.columnHeader25.Width = 120;
-            // 
-            // columnHeader26
-            // 
-            this.columnHeader26.Text = "Swipe Card Type";
-            this.columnHeader26.Width = 120;
-            // 
-            // columnHeader27
-            // 
-            this.columnHeader27.Text = "Serial No";
-            this.columnHeader27.Width = 120;
-            // 
-            // columnHeader28
-            // 
-            this.columnHeader28.Text = "Channel Controller ID";
-            this.columnHeader28.Width = 120;
-            // 
-            // columnHeader29
-            // 
-            this.columnHeader29.Text = "Channel Controller Lamp ID";
-            this.columnHeader29.Width = 120;
-            // 
-            // columnHeader30
-            // 
-            this.columnHeader30.Text = "Channel Controller IR Adaptor ID";
-            this.columnHeader30.Width = 120;
-            // 
-            // columnHeader31
-            // 
-            this.columnHeader31.Text = "Channel Controller IR Emitter ID";
-            this.columnHeader31.Width = 120;
-            // 
-            // columnHeader32
-            // 
-            this.columnHeader32.Text = "Inductive Event Type";
-            this.columnHeader32.Width = 120;
-            // 
-            // columnHeader33
-            // 
-            this.columnHeader33.Text = "Record Channel";
-            this.columnHeader33.Width = 120;
-            // 
-            // columnHeader34
-            // 
-            this.columnHeader34.Text = "User Type";
-            this.columnHeader34.Width = 120;
-            // 
-            // columnHeader35
-            // 
-            this.columnHeader35.Text = "Current Verify Mode";
-            this.columnHeader35.Width = 120;
-            // 
-            // columnHeader36
-            // 
-            this.columnHeader36.Text = "Employee No String";
-            this.columnHeader36.Width = 120;
+            this.textBoxIpAddress.Location = new System.Drawing.Point(822, 263);
+            this.textBoxIpAddress.Name = "textBoxIpAddress";
+            this.textBoxIpAddress.Size = new System.Drawing.Size(173, 22);
+            this.textBoxIpAddress.TabIndex = 81;
+            this.textBoxIpAddress.Text = "192.168.10.12";
             // 
             // comboBoxLanguage
             // 
@@ -758,27 +495,41 @@
             this.comboBoxLanguage.Items.AddRange(new object[] {
             "English",
             "Chinese"});
-            this.comboBoxLanguage.Location = new System.Drawing.Point(680, 383);
+            this.comboBoxLanguage.Location = new System.Drawing.Point(906, 119);
             this.comboBoxLanguage.Name = "comboBoxLanguage";
             this.comboBoxLanguage.Size = new System.Drawing.Size(90, 22);
             this.comboBoxLanguage.TabIndex = 80;
             this.comboBoxLanguage.SelectedIndexChanged += new System.EventHandler(this.comboBoxLanguage_SelectedIndexChanged);
             // 
+            // btnLogin
+            // 
+            this.btnLogin.Enabled = false;
+            this.btnLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLogin.Location = new System.Drawing.Point(12, 112);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(103, 29);
+            this.btnLogin.TabIndex = 5;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
+            // columnHeader7
+            // 
+            this.columnHeader7.Text = "#";
+            this.columnHeader7.Width = 100;
+            // 
             // GetACSEvent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(791, 685);
+            this.ClientSize = new System.Drawing.Size(1008, 611);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.btnLogin);
+            this.Controls.Add(this.textBoxIpAddress);
             this.Controls.Add(this.comboBoxLanguage);
             this.Controls.Add(this.listViewEvent);
-            this.Controls.Add(this.dateTimeSelect);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.textBoxEmployeeNo);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBoxCardNo);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBoxName);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.dateTimeEnd);
             this.Controls.Add(this.dateTimeStart);
@@ -788,7 +539,6 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.comboBoxMainType);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
@@ -796,7 +546,7 @@
             this.MaximizeBox = false;
             this.Name = "GetACSEvent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "ACS Demo";
+            this.Text = "ACS Demo M2+";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.GetACSEvent_FormClosing);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
@@ -809,7 +559,6 @@
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox comboBoxMainType;
         private System.Windows.Forms.ComboBox comboBoxSecondType;
@@ -819,52 +568,20 @@
         private System.Windows.Forms.DateTimePicker dateTimeStart;
         private System.Windows.Forms.DateTimePicker dateTimeEnd;
         private System.Windows.Forms.Button btnSearch;
-        private System.Windows.Forms.DateTimePicker dateTimeSelect;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.TextBox textBoxEmployeeNo;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBoxCardNo;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBoxName;
-        private System.Windows.Forms.ListView listViewEvent;
         private System.Windows.Forms.ColumnHeader columnHeader1;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.ColumnHeader columnHeader6;
-        private System.Windows.Forms.ColumnHeader columnHeader7;
-        private System.Windows.Forms.ColumnHeader columnHeader8;
-        private System.Windows.Forms.ColumnHeader columnHeader9;
-        private System.Windows.Forms.ColumnHeader columnHeader10;
-        private System.Windows.Forms.ColumnHeader columnHeader11;
-        private System.Windows.Forms.ColumnHeader columnHeader12;
-        private System.Windows.Forms.ColumnHeader columnHeader13;
-        private System.Windows.Forms.ColumnHeader columnHeader14;
-        private System.Windows.Forms.ColumnHeader columnHeader15;
-        private System.Windows.Forms.ColumnHeader columnHeader16;
-        private System.Windows.Forms.ColumnHeader columnHeader17;
-        private System.Windows.Forms.ColumnHeader columnHeader18;
-        private System.Windows.Forms.ColumnHeader columnHeader19;
-        private System.Windows.Forms.ColumnHeader columnHeader20;
-        private System.Windows.Forms.ColumnHeader columnHeader21;
-        private System.Windows.Forms.ColumnHeader columnHeader22;
-        private System.Windows.Forms.ColumnHeader columnHeader23;
-        private System.Windows.Forms.ColumnHeader columnHeader24;
-        private System.Windows.Forms.ColumnHeader columnHeader25;
-        private System.Windows.Forms.ColumnHeader columnHeader26;
-        private System.Windows.Forms.ColumnHeader columnHeader27;
-        private System.Windows.Forms.ColumnHeader columnHeader28;
-        private System.Windows.Forms.ColumnHeader columnHeader29;
-        private System.Windows.Forms.ColumnHeader columnHeader30;
-        private System.Windows.Forms.ColumnHeader columnHeader31;
-        private System.Windows.Forms.ColumnHeader columnHeader32;
-        private System.Windows.Forms.ColumnHeader columnHeader33;
-        private System.Windows.Forms.ColumnHeader columnHeader34;
-        private System.Windows.Forms.ColumnHeader columnHeader35;
-        private System.Windows.Forms.ColumnHeader columnHeader36;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBoxIpAddress;
         private System.Windows.Forms.ComboBox comboBoxLanguage;
+        private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.ColumnHeader columnHeader7;
+        private System.Windows.Forms.ListView listViewEvent;
     }
 }
 
