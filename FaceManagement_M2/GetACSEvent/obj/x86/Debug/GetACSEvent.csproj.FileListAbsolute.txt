@@ -1,0 +1,23 @@
+C:\Users\MuhammadTariq\Downloads\EN-HCNetSDKV6.1.9.48_build20230410_win64\EN-HCNetSDKV6.1.9.48_build20230410_win64\C# demo\8-ACS_Optimization_ALL\GetACSEvent\GetACSEvent\obj\x86\Debug\GetACSEvent.csproj.AssemblyReference.cache
+C:\Users\MuhammadTariq\Downloads\EN-HCNetSDKV6.1.9.48_build20230410_win64\EN-HCNetSDKV6.1.9.48_build20230410_win64\C# demo\8-ACS_Optimization_ALL\GetACSEvent\GetACSEvent\obj\x86\Debug\GetACSEvent.GetACSEvent.resources
+C:\Users\MuhammadTariq\Downloads\EN-HCNetSDKV6.1.9.48_build20230410_win64\EN-HCNetSDKV6.1.9.48_build20230410_win64\C# demo\8-ACS_Optimization_ALL\GetACSEvent\GetACSEvent\obj\x86\Debug\GetACSEvent.AddDevice.resources
+C:\Users\MuhammadTariq\Downloads\EN-HCNetSDKV6.1.9.48_build20230410_win64\EN-HCNetSDKV6.1.9.48_build20230410_win64\C# demo\8-ACS_Optimization_ALL\GetACSEvent\GetACSEvent\obj\x86\Debug\GetACSEvent.Properties.Resources.resources
+C:\Users\MuhammadTariq\Downloads\EN-HCNetSDKV6.1.9.48_build20230410_win64\EN-HCNetSDKV6.1.9.48_build20230410_win64\C# demo\8-ACS_Optimization_ALL\GetACSEvent\GetACSEvent\obj\x86\Debug\GetACSEvent.csproj.GenerateResource.cache
+C:\Users\MuhammadTariq\Downloads\EN-HCNetSDKV6.1.9.48_build20230410_win64\EN-HCNetSDKV6.1.9.48_build20230410_win64\C# demo\8-ACS_Optimization_ALL\GetACSEvent\GetACSEvent\obj\x86\Debug\GetACSEvent.csproj.CoreCompileInputs.cache
+C:\Users\MuhammadTariq\Downloads\EN-HCNetSDKV6.1.9.48_build20230410_win64\EN-HCNetSDKV6.1.9.48_build20230410_win64\C# demo\8-ACS_Optimization_ALL\GetACSEvent\GetACSEvent\bin\GetACSEvent.exe.config
+C:\Users\MuhammadTariq\Downloads\EN-HCNetSDKV6.1.9.48_build20230410_win64\EN-HCNetSDKV6.1.9.48_build20230410_win64\C# demo\8-ACS_Optimization_ALL\GetACSEvent\GetACSEvent\bin\GetACSEvent.exe
+C:\Users\MuhammadTariq\Downloads\EN-HCNetSDKV6.1.9.48_build20230410_win64\EN-HCNetSDKV6.1.9.48_build20230410_win64\C# demo\8-ACS_Optimization_ALL\GetACSEvent\GetACSEvent\bin\GetACSEvent.pdb
+C:\Users\MuhammadTariq\Downloads\EN-HCNetSDKV6.1.9.48_build20230410_win64\EN-HCNetSDKV6.1.9.48_build20230410_win64\C# demo\8-ACS_Optimization_ALL\GetACSEvent\GetACSEvent\obj\x86\Debug\GetACSEvent.exe
+C:\Users\MuhammadTariq\Downloads\EN-HCNetSDKV6.1.9.48_build20230410_win64\EN-HCNetSDKV6.1.9.48_build20230410_win64\C# demo\8-ACS_Optimization_ALL\GetACSEvent\GetACSEvent\obj\x86\Debug\GetACSEvent.pdb
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M2\GetACSEvent\bin\GetACSEvent.exe.config
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M2\GetACSEvent\bin\GetACSEvent.exe
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M2\GetACSEvent\bin\GetACSEvent.pdb
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M2\GetACSEvent\obj\x86\Debug\GetACSEvent.csproj.AssemblyReference.cache
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M2\GetACSEvent\obj\x86\Debug\GetACSEvent.csproj.SuggestedBindingRedirects.cache
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M2\GetACSEvent\obj\x86\Debug\GetACSEvent.GetACSEvent.resources
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M2\GetACSEvent\obj\x86\Debug\GetACSEvent.AddDevice.resources
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M2\GetACSEvent\obj\x86\Debug\GetACSEvent.Properties.Resources.resources
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M2\GetACSEvent\obj\x86\Debug\GetACSEvent.csproj.GenerateResource.cache
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M2\GetACSEvent\obj\x86\Debug\GetACSEvent.csproj.CoreCompileInputs.cache
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M2\GetACSEvent\obj\x86\Debug\GetACSEvent.exe
+D:\WorkSpace\WorkData\C#\ProjectDocs\FaceProject\FaceManagement_M2\GetACSEvent\obj\x86\Debug\GetACSEvent.pdb
