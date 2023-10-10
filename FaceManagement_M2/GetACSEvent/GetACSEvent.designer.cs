@@ -353,7 +353,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Consolas", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.DimGray;
-            this.label4.Location = new System.Drawing.Point(363, 229);
+            this.label4.Location = new System.Drawing.Point(373, 266);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(80, 17);
             this.label4.TabIndex = 64;
@@ -365,7 +365,7 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Consolas", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.DimGray;
-            this.label5.Location = new System.Drawing.Point(347, 263);
+            this.label5.Location = new System.Drawing.Point(357, 229);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(96, 17);
             this.label5.TabIndex = 62;
@@ -375,7 +375,7 @@
             // 
             this.dateTimeStart.CustomFormat = "yyyy/MM/dd HH:mm:ss";
             this.dateTimeStart.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeStart.Location = new System.Drawing.Point(465, 262);
+            this.dateTimeStart.Location = new System.Drawing.Point(475, 229);
             this.dateTimeStart.Name = "dateTimeStart";
             this.dateTimeStart.Size = new System.Drawing.Size(173, 22);
             this.dateTimeStart.TabIndex = 66;
@@ -384,7 +384,7 @@
             // 
             this.dateTimeEnd.CustomFormat = "yyyy/MM/dd HH:mm:ss";
             this.dateTimeEnd.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimeEnd.Location = new System.Drawing.Point(465, 226);
+            this.dateTimeEnd.Location = new System.Drawing.Point(475, 263);
             this.dateTimeEnd.Name = "dateTimeEnd";
             this.dateTimeEnd.Size = new System.Drawing.Size(173, 22);
             this.dateTimeEnd.TabIndex = 67;

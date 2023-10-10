@@ -97,7 +97,7 @@ namespace GetACSEvent
         private void btnSearch_Click(object sender, EventArgs e)
         {
             LoginDetail now = lstLoginDetail[0];
-            Login(now.UserName, now.DeviceAddress, now.Password, now.Port);
+            Login(now.DeviceAddress, now.UserName, now.Password, now.Port);
             if (m_UserID < 0) return;
 
             listViewEvent.Items.Clear();
@@ -106,7 +106,7 @@ namespace GetACSEvent
             CHCNetSDK.NET_DVR_ACS_EVENT_COND struCond = new CHCNetSDK.NET_DVR_ACS_EVENT_COND();
             struCond.Init();
             struCond.dwSize =(uint)Marshal.SizeOf(struCond);
-            struCond.dwMajor = 0;
+            struCond.dwMajor = 2;
             struCond.dwMinor = 0;
 
             struCond.struStartTime.dwYear = dateTimeStart.Value.Year;
@@ -124,24 +124,15 @@ namespace GetACSEvent
             struCond.struEndTime.dwSecond = dateTimeEnd.Value.Second;
 
             struCond.byPicEnable = 0;
-            struCond.szMonitorID = "";
-            struCond.wInductiveEventType = 65535;
+            //struCond.wInductiveEventType = 65535;
 
-            //if (!StrToByteArray(ref struCond.byCardNo, textBoxCardNo.Text))
-            //{
-            //    return;
-            //}
-
-            //if (!StrToByteArray(ref struCond.byName, textBoxName.Text))
-            //{
-            //    return;
-            //}
             //struCond.dwBeginSerialNo = 0;
             //struCond.dwEndSerialNo = 0;
 
             uint dwSize = struCond.dwSize;
             IntPtr ptrCond = Marshal.AllocHGlobal((int)dwSize);
             Marshal.StructureToPtr(struCond, ptrCond, false);
+
             m_lGetAcsEventHandle = CHCNetSDK.NET_DVR_StartRemoteConfig(m_UserID, CHCNetSDK.NET_DVR_GET_ACS_EVENT, ptrCond, (int)dwSize, null, IntPtr.Zero);
             if (-1 == m_lGetAcsEventHandle)
             {
@@ -160,15 +151,16 @@ namespace GetACSEvent
             int dwStatus = 0;
             Boolean Flag = true;
             CHCNetSDK.NET_DVR_ACS_EVENT_CFG struCFG = new CHCNetSDK.NET_DVR_ACS_EVENT_CFG();
+            //struCFG.init();
             struCFG.dwSize = (uint)Marshal.SizeOf(struCFG);
             int dwOutBuffSize = (int)struCFG.dwSize;
-            struCFG.init();
             while (Flag)
             {
                 dwStatus = CHCNetSDK.NET_DVR_GetNextRemoteConfig(m_lGetAcsEventHandle, ref struCFG, dwOutBuffSize);
                 switch (dwStatus)
                 {
                     case CHCNetSDK.NET_SDK_GET_NEXT_STATUS_SUCCESS://成功读取到数据，处理完本次数据后需调用next
+                        this.Text += " x";
                         ProcessAcsEvent(ref struCFG, ref Flag);
                         break;
                     case CHCNetSDK.NET_SDK_GET_NEXT_STATUS_NEED_WAIT:

@@ -1,3 +1,8 @@
-[2023-08-23 14:39:45.727][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
-[2023-08-23 14:39:45.727][INF] The COM:Core ver is 6.1.9.48, 2023_04_10. Async:1.
-[2023-08-23 14:39:45.727][INF] This HCNetSDK ver is 6.1.9.48 Ver 2023_04_10.
+[2023-08-23 16:36:18.215][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
+[2023-08-23 16:36:18.215][INF] The COM:Core ver is 6.1.9.48, 2023_04_10. Async:1.
+[2023-08-23 16:36:18.215][INF] This HCNetSDK ver is 6.1.9.48 Ver 2023_04_10.
+[2023-08-23 16:36:24.293][INF] Login dev 192.168.10.12:8000.
+[2023-08-23 16:36:24.293][INF] dwTotalNum[2048]
+[2023-08-23 16:36:27.815][ERR] Private connect 192.168.10.12:8000 sock=2068 this=0x1f207bb4 cmd=0x10000 sys_err=10060, timeout= 3500 port=0
+[2023-08-23 16:36:27.815][ERR] [192.168.10.12:8000]LogonDevice Link_CreateLink fail[7].
+[2023-08-23 16:36:27.815][ERR] CMemberMgrBase::AllocIndex2, MemberStart Failed, iIndex[0]
